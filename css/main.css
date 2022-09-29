@@ -181,7 +181,7 @@ section#about .col-12
 {
     background-color: #F2F2F2;
 }
-#milestones .col-lg-4
+#milestones .milestones
 {
     background-color: #fff;
 }
@@ -206,14 +206,14 @@ section#about .col-12
     margin: auto;
 }
 
-#milestones .col-md-8 .container-fluid
+#milestones .col-lg-8 .container-fluid
 {
     font-size: 18px;
     font-weight: 500;
     text-align: justify;
     line-height: 2.5rem;
 }
-#milestones .col-md-8 .container-fluid .btn-syled
+#milestones .col-lg-8 .container-fluid .btn-syled
 {
     background-color: #A3D8B5;
     border: none;
@@ -445,6 +445,7 @@ section#helpus button
 section#helpus .text-p
 {
     margin: 0;
+    margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px){
     section, .spacer_big, #whatwedo, #whatwedo_content, section#about, section#visa, section#about
@@ -475,7 +476,7 @@ section#helpus .text-p
     }
     .header-row
     {
-        padding-top: auto;
+        padding-top: 10px;
     }
     .header-row .container h1
     {
@@ -496,15 +497,10 @@ section#helpus .text-p
     }
 }
 
-@media only screen and (max-width:990px)
+/* @media only screen and (max-width:990px)
 {
-    
-    #whatwedo_content
-    {
-        /* margin-top: 60vh; */
-    }
     
 }
 @media only screen and (max-width: 1100px) {
     
-}
+} */
