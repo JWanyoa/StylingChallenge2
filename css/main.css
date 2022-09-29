@@ -158,7 +158,7 @@ section#about .text-lg.text-red
 
 .about-row .bg-grey
 {
-    background-color: #E5E5E5;
+    background-color: #F2F2F2;
 }
 
 .about-content .card{
@@ -172,7 +172,7 @@ section#about .text-lg.text-red
 {
     background-color: #F2F2F2;
 }
-#milestones .col-md-4
+#milestones .col-lg-4
 {
     background-color: #fff;
 }
@@ -262,7 +262,7 @@ section#visa h1
 
 .about-content .accordion-body
 {
-    background-color: #E5E5E5;
+    background-color: #F2F2F2;
 }
 
 section#faq div.accordion, section#faq div.accordion-item
@@ -274,20 +274,28 @@ section#faq div.accordion-item
 {
     margin-bottom: 15px;
 }
-section#faq button.accordion-button, section#faq button.accordion-button:not(.collapsed)
+section#faq button.accordion-button
 {
-    background-color: #fff;
+    background: none;
     border: 1px solid #999999;
     border-radius: 0%;
     color: #222;
     font-weight: 700;
     font-size: 1.2rem;
 }
-
+section#faq .about-content button.accordion-button
+{
+    background: #F2F2F2;
+}
+section#faq h4
+{
+    font-weight: 700;
+}
 section#faq button.accordion-button::after
 {
     content: "\25bc";
     background: none;
+    color: #222;
 }
 
 section#faq button.text-green
@@ -338,6 +346,12 @@ section#callus
     margin: auto;
 }
 
+#team .mycont2 img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
 #team .card-padding{
     padding: 0%;
 }
@@ -373,7 +387,11 @@ section#helpus h1
 {
     font-size: 4rem;
 }
-
+section#helpus h2
+{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
 section#helpus h1, section#helpus h3
 {
     font-weight: 700;
@@ -414,8 +432,12 @@ section#helpus button
     font-weight: 600;
 }
 
+section#helpus .text-p
+{
+    margin: 0;
+}
 @media only screen and (max-width: 768px){
-    section, .spacer_big, #whatwedo, #whatwedo_content, section#about, section#visa
+    section, .spacer_big, #whatwedo, #whatwedo_content, section#about, section#visa, section#about
     {
         height: auto;
     }
@@ -456,6 +478,11 @@ section#helpus button
     .mycontainer2, .mycontainer2 p, .mycontainer
     {
         width: 95%;
+    }
+
+    #team .mycont2
+    {
+        width: 90%;
     }
 }
 
