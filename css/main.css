@@ -135,12 +135,21 @@ section#about .text-lg.text-red
     font-size: 4rem;
     font-weight: 700;
 }
+section#about .col-12
+{
+    min-height: 10vh;
+}
+#about .work
+{
+    font-size: 1.7rem;
+    padding: 5% 0;
+}
 
 .about-container
 {
-    width: 80%;
-    margin-left: auto;
-    padding: 5%;
+    /* width: 100%; */
+    /* margin: auto; */
+    padding: 0% 3%;
 }
 
 .about-row .text-p
@@ -204,7 +213,7 @@ section#about .text-lg.text-red
     text-align: justify;
     line-height: 2.5rem;
 }
-#milestones .col-md-8 .container-fluid .btn-success
+#milestones .col-md-8 .container-fluid .btn-syled
 {
     background-color: #A3D8B5;
     border: none;
@@ -465,7 +474,7 @@ section#helpus .text-p
     }
     .header-row
     {
-        padding-top: 0;
+        padding-top: auto;
     }
     .header-row .container h1
     {
