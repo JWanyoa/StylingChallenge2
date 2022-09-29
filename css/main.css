@@ -365,10 +365,11 @@ section#callus
     padding: 0%;
 }
 #team .card-padding::before{
-    content: '\201c';
+    content: '❝';/*\201C*/
     color: #A3D8B5;
-    font-weight: 900;
-    font-size: 50px;
+    /* font-weight: 900; */
+    font-size: 60px;
+    line-height: 5%;
 }
 #team .col-md-12 button
 {
