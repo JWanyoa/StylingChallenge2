@@ -238,6 +238,7 @@ section#visa img
     color:#222;
     margin: 0;
 }
+
 section#visa .card, section#visa .btn
 {
     border: none;
@@ -247,9 +248,11 @@ section#visa .btn
 {
     background-color: #A3D8B5;
     text-transform: uppercase;
-    padding: 5%;
+    /* padding: 5%; */
     color: #222;
     font-weight: 700;
+    /* font-size: 20px; */
+    word-wrap: normal;
 }
 
 section#visa h1
@@ -261,15 +264,160 @@ section#visa h1
 {
     background-color: #E5E5E5;
 }
-#accordionExample, #accordionExample.accordion-body
+
+section#faq div.accordion, section#faq div.accordion-item
 {
     border: none;
     border-radius: 0%;
 }
+section#faq div.accordion-item
+{
+    margin-bottom: 15px;
+}
+section#faq button.accordion-button, section#faq button.accordion-button:not(.collapsed)
+{
+    background-color: #fff;
+    border: 1px solid #999999;
+    border-radius: 0%;
+    color: #222;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+section#faq button.accordion-button::after
+{
+    content: "\25bc";
+    background: none;
+}
+
+section#faq button.text-green
+{
+    color: #A3D8B5;
+}
+
+#strategy
+{
+    background-color: #A3D8B5;
+}
+#strategy div.col-md-8 h1
+{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+#strategy .card
+{
+    border: none;
+    border-radius: 0%;
+}
+
+section#callus
+{
+    min-height: 75vh;
+}
+
+#team {
+    background-color: #eee;
+}
+#team .font-weight-bolder
+{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+#team .col-md-6 .card
+{
+    padding: 6%;
+    border: none;
+    border-radius: 30px;
+}
+#team .mycont2
+{
+    width: 70%;
+    margin: auto;
+}
+
+#team .card-padding{
+    padding: 0%;
+}
+#team .card-padding::before{
+    content: '\201c';
+    color: #A3D8B5;
+    font-weight: 900;
+    font-size: 50px;
+}
+#team .col-md-12 button
+{
+    background-color: #A3D8B5;
+    padding: 1.5% 5%;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+}
+
+section#helpus
+{
+    background-color: #F4670B;
+    color: #fff;
+    font-size: larger;
+}
+section#helpus ul
+{
+    font-weight: 700;
+    font-size: x-large;
+    padding: 10px;
+    line-height: 5vh;
+}
+section#helpus h1
+{
+    font-size: 4rem;
+}
+
+section#helpus h1, section#helpus h3
+{
+    font-weight: 700;
+}
+
+section#helpus .card
+{
+    color: #222;
+    padding: 2%;
+}
+
+section#helpus .card, input[type="text"], section#helpus button
+{
+    border-radius: 30px;
+}
+
+section#helpus .card-inside
+{
+    border-radius: 40px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+section#helpus input[type="text"], section#helpus button
+{
+    border: none;
+    padding: 10px;
+}
+
+section#helpus input[type="text"]
+{
+    width: 100%;
+}
+section#helpus button
+{
+    background-color: #A3D8B5;
+    width: 100%;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 768px){
-    section, .spacer_big, #whatwedo, #whatwedo_content, section#about
+    section, .spacer_big, #whatwedo, #whatwedo_content, section#about, section#visa
     {
-        height: 100%;
+        height: auto;
     }
     #whatwedo_top, #whatwedo_content
     {
